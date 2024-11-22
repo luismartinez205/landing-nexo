@@ -27,10 +27,12 @@
     gap: 45px;
     padding: 84px;
 }
-.paragraph1{
+.paragraph1{    
     color: white;
     font-weight: 400;
     font-size: 16px;
+    display: flex;
+    flex-direction: column;
 }
 
 .para_title{
