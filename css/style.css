@@ -1,5 +1,5 @@
 .header{
-    background-color: gray;
+    background-color: #808080e6;
     width: 100%;
     height: 771px;
 }
@@ -35,7 +35,7 @@
 
 .para_title{
     font-weight: 300;
-    color: blue;
+    color: #0000ffd9;
     font-family: sans-serif;
 }
 .line{
@@ -45,4 +45,7 @@
 .btn{
     margin-bottom: 10px;
     background-color: #4c85d9;
+}
+.bg-body-tertiary{
+    background-color: white!important;
 }
