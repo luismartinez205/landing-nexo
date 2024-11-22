@@ -52,7 +52,7 @@
     background-color: white!important;
 }
 .col_title{
-    color: blue;
+    color: #eabc1dd6;
     text-align: center;
 }
 .col_paragraph{
@@ -65,6 +65,9 @@
 
 .row_title,.row_paragraph{
     text-align: center;
+}
+.row_title{
+    color: rgba(0, 0, 255, 0.712);
 }
 
 .col_img{
