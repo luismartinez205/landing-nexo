@@ -38,13 +38,14 @@ body{
     font-size: 16px;
     display: flex;
     flex-direction: column;
-    line-height: 12px;
+    line-height: 18px;
 }
 
 .para_title{
-    font-weight: 300;
+    font-weight: 600;
     color: #1b1ba3c7;
-    font-family: sans-serif;
+    font-family: 'Raleway';
+    font-size: 20px;
 }
 .line{
     background-color: #2BD9D3;
@@ -73,6 +74,7 @@ body{
 span{
     margin-left: 14px;
     color: #0000fd;
+    font-size: 16px;
 }
 .digital{
     color: #ff914d;
