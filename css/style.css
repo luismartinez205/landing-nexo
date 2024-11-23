@@ -47,12 +47,14 @@ body{
     font-family: sans-serif;
 }
 .line{
-    background-color: #0d6efdbd;
+    background-color: #2BD9D3;
     height: 4px;
 }
 .btn{
     margin-bottom: 10px;
-    background-color: #1c20e6d9;
+    background-color: #2BD9D3;
+    width: 100px;
+    border-color: #2bd9d3;
 }
 .bg-body-tertiary{
     background-color: white!important;
@@ -68,8 +70,14 @@ body{
     font-weight: 300;
     color: #38312f;
 }
-
-
+span{
+    margin-left: 14px;
+    color: #0000fd;
+}
+.digital{
+    color: #ff914d;
+    font-weight: 400;
+}
 .row{
     align-items: self-end;
     padding-top: 19px;
@@ -83,7 +91,7 @@ body{
 }
 
 .row_title{
-    color: rgba(0, 0, 255, 0.712);
+    color: rgb(43 217 211);
     padding-top: 25px;   
     padding-bottom: 19px;
 }
