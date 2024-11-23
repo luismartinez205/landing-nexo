@@ -33,7 +33,7 @@ body{
     padding: 84px;
 }
 .paragraph1{    
-    color: white;
+    color: #332f2f;
     font-weight: 400;
     font-size: 16px;
     display: flex;
@@ -47,7 +47,7 @@ body{
     font-family: sans-serif;
 }
 .line{
-    background-color: #e9cf31d4;
+    background-color: #0d6efdbd;
     height: 4px;
 }
 .btn{
@@ -60,6 +60,7 @@ body{
 .col_title{
     color: #172580d6;
     text-align: center;
+    font-weight: 300;
 }
 .col_paragraph{
     text-align: center;   
@@ -94,6 +95,7 @@ body{
     aspect-ratio: 1/1;
     object-fit: cover;
     object-position: top center;
+    margin-bottom: 20px;
 }
 .col-3{
     display: flex;
