@@ -15,10 +15,10 @@ body{
 
 .header_img{
     background-image: url("https://digital-focus.co/wp-content/uploads/2021/03/desarrollo-web-digital-focus.png");
-    width: 340px;
-    height: 320px;
-   background-size: contain;
-   margin-top: 38px;
+    width: 240px;
+    height: 220px;
+    background-size: contain;
+    margin-top: 73px;;
 }
 
 .header_container{
@@ -48,14 +48,14 @@ body{
     font-size: 20px;
 }
 .line{
-    background-color: #2BD9D3;
+    background-color: #ff914c;
     height: 4px;
 }
 .btn{
     margin-bottom: 10px;
-    background-color: #2BD9D3;
+    background-color: #ff914c;
     width: 100px;
-    border-color: #2bd9d3;
+    border-color: #ff914b;
 }
 .bg-body-tertiary{
     background-color: white!important;
@@ -89,13 +89,13 @@ span{
     text-align: center;
     margin: 0px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 26px;
 }
 
 .row_title{
     color: rgb(43 217 211);
     padding-top: 25px;   
-    padding-bottom: 19px;
+    padding-bottom: 37px;
 }
 
 
@@ -106,6 +106,11 @@ span{
     object-fit: cover;
     object-position: top center;
     margin-bottom: 20px;
+}
+.header_nexo{
+    width: 350px;
+    height: 320px;  
+   margin-top: 38px;
 }
 .col-3{
     display: flex;
