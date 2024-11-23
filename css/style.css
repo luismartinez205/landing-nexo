@@ -57,13 +57,17 @@ body{
     width: 100px;
     border-color: #ff914b;
 }
+strong{
+    color: #ff914d;
+    margin-right: 10px; 
+}
 .bg-body-tertiary{
     background-color: white!important;
 }
 .col_title{
     color: #172580d6;
     text-align: center;
-    font-weight: 300;
+    font-size: 21px;
 }
 .col_paragraph{
     text-align: center;   
@@ -81,7 +85,7 @@ span{
     font-weight: 400;
 }
 .row{
-    align-items: self-end;
+   
     padding-top: 19px;
 }
 
@@ -93,14 +97,16 @@ span{
 }
 
 .row_title{
-    color: rgb(43 217 211);
-    padding-top: 25px;   
-    padding-bottom: 37px;
+    font-weight: 600;
+    color: #1b1ba3c7;
+    font-family: 'Raleway';
+    font-size: 20px;
+    padding-bottom: 10px;
 }
 
 
 .col_img{
-    width: 134px;
+    width: 136px;
     border-radius: 50%;
     aspect-ratio: 1/1;
     object-fit: cover;
@@ -115,6 +121,7 @@ span{
 .col-3{
     display: flex;
     flex-direction: column;
+    justify-content: end;
     align-items: center;
 }
 .col-4{
@@ -126,4 +133,7 @@ span{
 }
 .feacture{
     background-color: #80808017;
+}
+.ventajas{
+    background-color: #daede938;
 }
