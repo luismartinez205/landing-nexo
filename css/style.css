@@ -132,7 +132,16 @@ span{
     align-items: center;
     padding-top: 70px;
 }
+.col-6{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
 
 .ventajas{
     background-color: #fff;
+}
+.col-6 p{
+    width: 461px;
 }
