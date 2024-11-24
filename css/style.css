@@ -163,3 +163,15 @@ span{
 .nav-link{
     color: #fff;
 }
+.paragraph1_img{
+    width: 47px;
+    position: absolute;
+    top: 457px;
+    left: 825px;
+}
+.paragraph2_img{
+    width: 47px;
+    position: absolute;
+    top: 459px;
+    left: 390px;
+}
