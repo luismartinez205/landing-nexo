@@ -109,9 +109,20 @@ span{
     font-size: 20px;
     padding-bottom: 10px;
 }
-
+.row_img{
+    width: 128px;
+    filter: brightness(0.5); 
+}
 
 .col_img{
+    width: 136px;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    object-position: top center;
+    margin-bottom: 20px;
+}
+.col_img2{
     width: 136px;
     border-radius: 50%;
     aspect-ratio: 1/1;
@@ -145,7 +156,7 @@ span{
 }
 
 .ventajas{
-   background-color: #eeb51c82;
+   background-color: #eeb51ca3;
 }
 .col-6 p{
     width: 461px;
@@ -174,4 +185,8 @@ span{
     position: absolute;
     top: 459px;
     left: 390px;
+}
+.bg-light{
+   
+    background-color: #ffc1076b !important;
 }
