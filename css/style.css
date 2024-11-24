@@ -55,15 +55,15 @@ body{
 }
 .btn{
     margin-bottom: 10px;
-    background-color: #ff914c;
+    background-color: #f3b61d;
     width: 135px;
     border-color: #ff914b;
     border-radius: 15px;
     font-weight: 500;
 }
 strong{
-    color: #ff914d;
-    margin-right: 10px; 
+    color: #4a449d;
+    margin-right: 10px;
 }
 .bg-body-tertiary{
     background: rgb(243,239,236);
