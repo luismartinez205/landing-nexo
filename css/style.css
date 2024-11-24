@@ -2,10 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 .header{
-    display: flex;
-    flex-direction: column;
+    
     width: 100%;
-    gap: 62px;
+   
    
 }
 body{
@@ -67,7 +66,8 @@ strong{
     margin-right: 10px; 
 }
 .bg-body-tertiary{
-    background-color: white!important;
+    background: rgb(243,239,236);
+    background: linear-gradient(90deg, rgba(243,239,236,1) 18%, rgba(18,11,231,0.9753183744200805) 49%, rgba(255,166,0,0.9837217357646183) 100%);
 }
 .col_title{
     color: #172580d6;
@@ -84,10 +84,11 @@ span{
     margin-left: 14px;
     color: #0000fd;
     font-size: 16px;
+    font-weight: 600;
 }
 .digital{
     color: #ff914d;
-    font-weight: 400;
+    font-weight: 600;
 }
 .row{
    
@@ -144,8 +145,21 @@ span{
 }
 
 .ventajas{
-    background-color: #fff;
+   background-color: #eeb51c82;
 }
 .col-6 p{
     width: 461px;
+}
+.wave{
+    height: 150px;
+    width: 100%;
+}
+.navbar_title{
+    font-size: 18px;
+    color: darkslategray;
+    font-weight: 700;
+    padding-top: 8px;
+}
+.nav-link{
+    color: #fff;
 }
