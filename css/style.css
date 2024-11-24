@@ -2,8 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 .header{
-   
+    display: flex;
+    flex-direction: column;
     width: 100%;
+    gap: 62px;
    
 }
 body{
@@ -55,8 +57,10 @@ body{
 .btn{
     margin-bottom: 10px;
     background-color: #ff914c;
-    width: 100px;
+    width: 135px;
     border-color: #ff914b;
+    border-radius: 15px;
+    font-weight: 500;
 }
 strong{
     color: #ff914d;
@@ -115,8 +119,8 @@ span{
     margin-bottom: 20px;
 }
 .header_nexo{
-    width: 350px;
-    height: 320px;  
+    width: 240px;
+    height: 235px;  
    margin-top: 38px;
 }
 .col-3{
