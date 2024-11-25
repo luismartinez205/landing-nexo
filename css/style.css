@@ -20,7 +20,8 @@ body{
     width: 240px;
     height: 220px;
     background-size: contain;
-    margin-top: 73px;;
+    margin-top: 73px;
+    background-repeat: no-repeat;
 }
 
 .header_container{
