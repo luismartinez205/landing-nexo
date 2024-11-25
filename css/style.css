@@ -197,7 +197,7 @@ span{
     .paragraph1_img {
         width: 34px;
         position: absolute;
-        top: 555px;
+        top: 557px;
         left: 269px;
     }
     .header_nexo {
@@ -231,20 +231,22 @@ span{
         width: 34px;
         position: absolute;
         top: 396px;
-        left: 313px;
+        left: 318px;
     }
     .col-3 {
         flex: 0 0 auto;
         width: 100%;
     }
     .col_img {
-        width: 75%;
+        width: 100%;
         border-radius: 0%;
         aspect-ratio: 1 / 1;
         object-fit: cover;
         object-position: top center;
         margin-bottom: 20px;
+        margin-top: 16px;
     }
+}
     .wave {
         height: 126px;
         width: 100%;
