@@ -246,7 +246,7 @@ span{
         margin-bottom: 20px;
         margin-top: 16px;
     }
-}
+
     .wave {
         height: 126px;
         width: 100%;
@@ -270,4 +270,5 @@ span{
     .col-6 p {
         width: 292px;
     }
+
 }
