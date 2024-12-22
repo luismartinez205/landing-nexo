@@ -224,6 +224,12 @@ span{
         height: 165px;
         margin-top: 61px;
     }
+    .bg-body-tertiary{
+        position: fixed;
+        width: 100%;
+        z-index: 100;
+        top: 0%;
+    }
     .header_img {       
         width: 297px;
         height: 220px;
@@ -248,7 +254,7 @@ span{
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 20px;
+        margin-top: 96px;
         flex-direction: column;
     }
     .container_paragraph {
@@ -263,13 +269,17 @@ span{
         padding-top: 19px;
         flex-direction: column;
     }
+    span{
+        display: none;
+    }
+  
     iframe{
         width: 340px;
     }
     .paragraph2_img {
         width: 34px;
         position: absolute;
-        top: 214px;
+        top: 183px;
         left: 149px;
     }
     .col-3 {
