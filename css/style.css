@@ -225,11 +225,17 @@ span{
         margin-top: 61px;
     }
     .header_img {       
-        width: 240px;
+        width: 297px;
         height: 220px;
-        background-size: contain;
-        margin-top: 73px;
+        background-size: contain;        
+        margin-bottom: 10px;
         background-repeat: no-repeat;
+    }
+    .uno{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
     }
     .container_paragraph {
         display: flex;
@@ -249,8 +255,8 @@ span{
     .paragraph2_img {
         width: 34px;
         position: absolute;
-        top: 396px;
-        left: 318px;
+        top: 186px;
+        left: 172px;
     }
     .col-3 {
         flex: 0 0 auto;
