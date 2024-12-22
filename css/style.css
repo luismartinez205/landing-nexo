@@ -235,7 +235,21 @@ span{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        margin-right: 0px;
         
+    }
+    h1{
+        font-size: 26px;
+    }
+    h3{
+        font-size: 16px;
+    }
+    .header_container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        flex-direction: column;
     }
     .container_paragraph {
         display: flex;
@@ -255,8 +269,8 @@ span{
     .paragraph2_img {
         width: 34px;
         position: absolute;
-        top: 186px;
-        left: 172px;
+        top: 214px;
+        left: 149px;
     }
     .col-3 {
         flex: 0 0 auto;
