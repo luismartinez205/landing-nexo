@@ -210,6 +210,11 @@ span{
    
     background-color: #ffc1076b !important;
 }
+.btn-whatsapp{
+    position: fixed;
+    right: 80px;
+    bottom: 200px;
+}
 /* Media query para dispositivos móviles */
 @media screen and (max-width: 768px) {
     /* Estilos específicos para pantallas pequeñas */
@@ -218,6 +223,11 @@ span{
         position: absolute;
         top: 557px;
         left: 269px;
+    }
+    .btn-whatsapp{
+        
+        right: 10px;
+        bottom: 140px;
     }
     .header_nexo {
         width: 179px;
