@@ -29,15 +29,15 @@ body{
 
 .header_container{
     display: flex;
-    justify-content: center;
-    margin-top: 20px;
+    justify-content: space-around;
+    margin-top: 103px;
 }
 .container_paragraph{
     display: flex;
     justify-content: center;
     align-items: end;
     gap: 45px;
-    padding: 10px 84px 0px 84px;
+    padding: 40px 84px 0px 84px;
 }
 .paragraph1{    
     color: #332f2f;
@@ -83,6 +83,10 @@ strong{
 .bg-body-tertiary{
     background: rgb(243,239,236);
     background: linear-gradient(90deg, rgba(243,239,236,1) 18%, rgba(18,11,231,0.9753183744200805) 49%, rgba(255,166,0,0.9837217357646183) 100%);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
 }
 .col_title{
     color: #172580d6;
@@ -204,7 +208,7 @@ span{
     width: 34px;
     position: absolute;
     top: 220px;
-    left: 302px;
+    left: 208px;
 }
 .bg-light{
    
