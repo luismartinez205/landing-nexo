@@ -10,7 +10,14 @@ function cargarJson() {
         let html= '';
         data.forEach(function(empleado){
             html += `
-             <li>${empleado.nombre} ${empleado.apellido}</li> `
+             <div class="btnjson">
+             <img class="pyton" src="${empleado.img}"/>
+             <li><strong>Lenguaje:<strong/> ${empleado.nombre}</li>
+             
+             <li>Creado por: ${empleado.creador}</li>
+              
+             <div/>
+             `
 
         })
         document.querySelector('.load').innerHTML=html;        

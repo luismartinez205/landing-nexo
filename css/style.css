@@ -242,8 +242,13 @@ li{
 .load{
     background-color: #fff;
     width: 600px;
-    height: 400px;
+    height: 500px;
     
+}
+.pyton{
+    margin-top: 20px;
+    width: 137px;
+    height: 111px;
 }
 /* Media query para dispositivos móviles */
 @media screen and (max-width: 768px) {

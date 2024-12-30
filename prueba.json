@@ -2,14 +2,15 @@
 [
 
    {
-      "nombre":"francisco",
-      "apellido":"martinez"
-   
-   },
-   {
-      "nombre":"luciana",
-      "apellido":"pineda"
-   
+      "nombre":"Phyton",
+      "creador":"Guido Van Rossum",
+      "img":"https://gvanrossum.github.io/images/guido-headshot-2019.jpg"
+   }, 
+  
+   { 
+      "nombre":"Php",
+      "creador":"Rasmus Lerdorf",
+      "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRHQZdf6yzAMHPmGEEvzm_ey75ZdVUWjCRJA&s"
    }
 
 ]
