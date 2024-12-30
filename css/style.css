@@ -219,6 +219,32 @@ span{
     right: 80px;
     bottom: 200px;
 }
+.boton{
+    border-color: transparent;
+    background-color: #f3b61d;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 20px;
+}
+.btnjson{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    font-weight: 400;
+    list-style: none;
+    text-align: center;
+    margin: 20px;
+    font-size: 18px;
+}
+.load{
+    background-color: #fff;
+    width: 600px;
+    height: 400px;
+    
+}
 /* Media query para dispositivos móviles */
 @media screen and (max-width: 768px) {
     /* Estilos específicos para pantallas pequeñas */
