@@ -11,7 +11,20 @@
       "nombre":"Php",
       "creador":"Rasmus Lerdorf",
       "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRHQZdf6yzAMHPmGEEvzm_ey75ZdVUWjCRJA&s"
+   },
+
+   {
+      "nombre":"C++",
+      "creador":"Bjarne Stroustrup",
+      "img":"https://www.engineering.columbia.edu/sites/default/files/styles/faculty_masthead_image/public/2024-07/Faculty-Bjarne_Strousup-Thumbnail-392x392.jpg?itok=6FU-EqsT"
+   },
+
+   {
+      "nombre":"Javascript",
+      "creador":"Brendan Eich",
+      "img":"https://upload.wikimedia.org/wikipedia/commons/d/d1/Brendan_Eich_Mozilla_Foundation_official_photo.jpg"
    }
+  
 
 ]
 
