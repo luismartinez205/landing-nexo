@@ -13,7 +13,7 @@ function fetchData() {
             const html = `
                 <div class="country-info">
                     <h1>${data.name}</h1>
-                    <img class="flag" src="${data.flags[0]}" alt="Bandera de ${data.name}" />
+                    <img class="flag" src="${data.flags[1]}" alt="Bandera de ${data.name}" />
                     <p><strong>Descripción:</strong> ${data.description}</p>
                     <ul>
                         <li><strong>Capital:</strong> ${data.stateCapital}</li>
