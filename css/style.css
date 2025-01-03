@@ -131,7 +131,7 @@ span{
     color: #1b1ba3c7;
     font-family: 'Raleway';
     font-size: 24px;
-    padding-bottom: 10px;
+    padding-bottom: 24px;
 }
 .row_img{
     width: 128px;
@@ -216,7 +216,7 @@ span{
     left: 208px;
 }
 .bg-light{
-   
+    padding-bottom: 20px;
     background-color: #ffc1076b !important;
 }
 .btn-whatsapp{
@@ -309,6 +309,117 @@ li{
 .row{
     margin-left: 0px;
     margin-right: 0px;
+}
+.col-6{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.altura{
+    height: 240px;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.card-imagen{
+    width: 50%;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+}
+/* Media query para tabletas */
+@media screen and (max-width: 1024px) {
+    /* Estilos específicos para tabletas */
+    .paragraph1_img {
+        width: 34px;
+        position: absolute;
+        top: 557px;
+        left: 269px;
+    }
+    .btn-whatsapp{
+        
+        right: 10px;
+        bottom: 140px;
+    }
+    .header_nexo {
+        width: 179px;
+        height: 165px;
+        margin-top: 61px;
+    }
+    .bg-body-tertiary{
+        position: fixed;
+        width: 100%;
+        z-index: 100;
+        top: 0%;
+    }
+    .header_img {       
+        width: 297px;
+        height: 220px;
+        background-size: contain;        
+        margin-bottom: 10px;
+        background-repeat: no-repeat;
+    }
+    .uno{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 0px;
+        
+    }
+    h1{
+        font-size: 26px;
+    }
+    h3{
+        font-size: 16px;
+    }
+    .header_container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 96px;
+        flex-direction: column;
+    }
+    .container_paragraph {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: end;
+        gap: 15px;
+        padding: 10px 14px 0px 14px;
+    }
+    .row {
+        padding-top: 19px;
+        flex-direction: column;
+    }
+    span{
+        display: none;
+    }
+  
+    iframe{
+        width: 340px;
+    }
+    .paragraph2_img {
+        width: 34px;
+        position: absolute;
+        top: 183px;
+        left: 149px;
+    }
+    .col-3 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+    .col_img {
+        width: 100%;
+        border-radius: 0%;
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+        object-position: top center;
+        margin-bottom: 20px;
+        margin-top: 16px;
+    }
 }
 /* Media query para dispositivos móviles */
 @media screen and (max-width: 768px) {
