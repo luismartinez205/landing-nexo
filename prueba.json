@@ -1,30 +1,43 @@
-
 [
-
    {
       "nombre":"Phyton",
       "creador":"Guido Van Rossum",
       "img":"https://gvanrossum.github.io/images/guido-headshot-2019.jpg"
    }, 
-  
    { 
       "nombre":"Php",
       "creador":"Rasmus Lerdorf",
       "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRHQZdf6yzAMHPmGEEvzm_ey75ZdVUWjCRJA&s"
    },
-
    {
       "nombre":"C++",
       "creador":"Bjarne Stroustrup",
       "img":"https://www.engineering.columbia.edu/sites/default/files/styles/faculty_masthead_image/public/2024-07/Faculty-Bjarne_Strousup-Thumbnail-392x392.jpg?itok=6FU-EqsT"
    },
-
    {
       "nombre":"Javascript",
       "creador":"Brendan Eich",
       "img":"https://upload.wikimedia.org/wikipedia/commons/d/d1/Brendan_Eich_Mozilla_Foundation_official_photo.jpg"
+   },
+   {
+      "nombre":"Java",
+      "creador":"James Gosling",
+      "img":"https://upload.wikimedia.org/wikipedia/commons/e/e6/James_Gosling_2008.jpg"
+   },
+   {
+      "nombre":"Ruby",
+      "creador":"Yukihiro Matsumoto",
+      "img":"https://upload.wikimedia.org/wikipedia/commons/7/73/Yukihiro_Matsumoto.JPG"
+   },
+   {
+      "nombre":"Go",
+      "creador":"Robert Griesemer, Rob Pike, Ken Thompson",
+      "img":"https://golang.org/doc/gopher/frontpage.png"
+   },
+   {
+      "nombre":"Swift",
+      "creador":"Chris Lattner",
+      "img":"https://upload.wikimedia.org/wikipedia/commons/9/9d/Chris_Lattner_2010.jpg"
    }
-  
-
 ]
 
