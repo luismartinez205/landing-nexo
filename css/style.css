@@ -84,7 +84,6 @@ strong{
 }
 .bg-body-tertiary{
     background: rgb(243,239,236);
-    background: linear-gradient(90deg, rgba(243,239,236,1) 18%, rgba(18,11,231,0.9753183744200805) 49%, rgba(255,166,0,0.9837217357646183) 100%);
     position: fixed;
     width: 100%;
     top: 0;
@@ -197,8 +196,20 @@ span{
     font-weight: 700;
     padding-top: 8px;
 }
+
+.wha-icon:hover{
+    transform: scale(1.5);
+    transition: all 0.5s ease-in-out;
+}
 .nav-link{
-    color: #fff;
+    color: #050505;
+    font-size: 1rem;
+
+    &&:hover{
+        color: #f3b61d;
+        
+        transition: all 0.5s ease-in-out;
+    }
 }
 .uno_titulo{
     color: #0000ffb3;
