@@ -233,7 +233,7 @@ span{
 .nav-link{
     color: #ffffff;
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: bold;
 
     &&:hover{
         color: #f3b61d;
