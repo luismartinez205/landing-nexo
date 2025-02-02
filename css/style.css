@@ -13,7 +13,18 @@ body{
 }
 .logo{
     width: 67px;
-    height: 58px;  
+    height: 58px;
+    margin-left: 81px; 
+}
+
+.imagen{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    position: absolute;
+    object-fit: cover;
+    top: 146px;
+    left: 642px;
 }
 
 .header_img{
@@ -120,31 +131,40 @@ span{
 .row_title,.row_paragraph{   
     text-align: center;
     margin: 0px;
-    font-weight: 400;
-    line-height: 18px;
+    font-weight: 500;
+    line-height: 150%;
     padding-bottom: 20px;
 }
 
 .row_title{
-    font-weight: 600;
-    color: #1b1ba3c7;
+    
+    color: #198754;
     font-family: 'Raleway';
-    font-size: 24px;
+    font-size: 2rem;
+    font-weight: 300;
     padding-bottom: 24px;
+    padding-top: 20px;
 }
 .row_img{
     width: 128px;
-    filter: brightness(0.5); 
+   
 }
 
 .col_img{
-    width: 100%;
-    /* height: 136px; */
-    /* border-radius: 50%; */
-    aspect-ratio: 1/1;
-    /* object-fit: cover; */
-    /* object-position: top center; */
+    width: 100%;   
+    aspect-ratio: 1/1;    
     margin-bottom: 20px;
+    will-change: transform;
+    transform-origin: center;
+    transition: transform,border-radius 0.3s ease-in-out;
+    cursor: pointer;
+    &&:hover{
+        filter: grayscale(100%);
+        
+        
+        border-radius: 50%;
+
+    }
 }
 .col_img2{
     width: 136px;
@@ -180,7 +200,7 @@ span{
 }
 
 .ventajas{
-  background-color: #f2d587;
+  
 }
 .col-6 p{
     width: 639px;
@@ -202,8 +222,9 @@ span{
     transition: all 0.5s ease-in-out;
 }
 .nav-link{
-    color: #050505;
+    color: #0c0c5c;
     font-size: 1rem;
+    font-weight: 500;
 
     &&:hover{
         color: #f3b61d;
@@ -228,7 +249,7 @@ span{
 }
 .bg-light{
     padding-bottom: 20px;
-    background-color: #ffc1076b !important;
+   
 }
 .btn-whatsapp{
     position: fixed;
@@ -295,7 +316,7 @@ li{
     padding: 10px;
 }
 .footer{
-    background-color: #f6f6f6;
+    background-color: hsl(0deg 0% 13% / 9%);
     display: flex;
     justify-content:center;
     align-items: center;
@@ -336,10 +357,25 @@ li{
    
 }
 .card-imagen{
-    width: 50%;
+    width: 24%;
     border-radius: 50%;
     aspect-ratio: 1/1;
     object-fit: contain;
+}
+
+.span{
+    color: #0000fd;
+    font-size: .8rem;
+    font-weight: 600;
+    margin-left: 3px;
+    position: relative;
+    top: 19px;
+    left: 7px;
+}
+.card-text{
+    width: 50%;
+    text-align: center;
+    padding-top: 20px;
 }
 /* Media query para tabletas */
 @media screen and (max-width: 1024px) {
