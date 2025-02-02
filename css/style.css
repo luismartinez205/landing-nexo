@@ -23,6 +23,7 @@ body{
     width: 67px;
     height: 58px;
     margin-left: 81px; 
+    filter: url(1);
 }
 
 .imagen{
@@ -332,7 +333,7 @@ li{
     padding: 10px;
 }
 .footer{
-    background-color: hsl(0deg 0% 13% / 9%);
+    background-color: hsl(208.97deg 23.97% 23.73%);
     display: flex;
     justify-content:center;
     align-items: center;
