@@ -390,17 +390,21 @@ li{
 
 .span{
     color: #ffffff;
-    font-size: .8rem;
-    font-weight: 600;
+    font-size: 1.3rem;
+    font-family: revert;
+    font-weight: 500;
     margin-left: 3px;
     position: relative;
-    top: 19px;
-    left: 7px;
+    top: 4px;
+    left: 21px;
 }
 .card-text{
     width: 90%;
     text-align: center;
     padding-top: 20px;
+}
+h5{
+    font-size: 1rem;
 }
 /* Media query para tabletas */
 @media screen and (max-width: 1024px) {
@@ -614,6 +618,10 @@ li{
     }
     .col-6 p {
         width: 292px;
+    }
+
+    .footer_social{
+        flex-direction: column;
     }
 
 }
