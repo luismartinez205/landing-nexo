@@ -521,7 +521,7 @@ li{
     }
     .bg-body-tertiary{
         position: fixed;
-        width: 90%;
+        width: 100%;
         height: 80px;
         z-index: 100;
         top: 0%;
