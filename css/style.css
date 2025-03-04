@@ -211,9 +211,7 @@ p{
     flex-direction: column;
 }
 
-.ventajas{
-  
-}
+
 .col-6 p{
     width: 639px;
     text-align: start;
@@ -500,9 +498,7 @@ h5{
 /* Media query para dispositivos móviles */
 @media screen and (max-width: 768px) {
     /* Estilos específicos para pantallas pequeñas */
-    .logo{
-       
-    }
+    
 
     .imagen{
         display: none;
