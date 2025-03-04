@@ -498,7 +498,9 @@ h5{
 /* Media query para dispositivos móviles */
 @media screen and (max-width: 768px) {
     /* Estilos específicos para pantallas pequeñas */
-    
+    .card{
+        margin: 20px;
+    }
 
     .imagen{
         display: none;
