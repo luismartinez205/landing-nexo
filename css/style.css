@@ -404,6 +404,9 @@ li{
 h5{
     font-size: 1rem;
 }
+.navbar-collapse{
+    background-color: rgba(0,0,0,.6);
+}
 /* Media query para tabletas */
 @media screen and (max-width: 1024px) {
     /* Estilos específicos para tabletas */
