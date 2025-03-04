@@ -20,9 +20,8 @@ body{
     background-color: #80808012;
 }
 .logo{
-    width: 67px;
-    height: 58px;
-    margin-left: 81px; 
+    width: 74px;
+    height: 58px;     
     filter: url(1);
 }
 
@@ -157,6 +156,10 @@ span{
 .row_img{
     width: 128px;
    
+}
+
+p{
+    line-height: 30px;
 }
 
 .col_img{
@@ -306,9 +309,14 @@ li{
 }
 .footer_social{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 10px;
+}
+.navbar-toggler{
+    background-color: #ffffff;
+    border: #ffffff;
 }
 .facebook{
     width: 30px;
@@ -390,7 +398,7 @@ li{
     left: 7px;
 }
 .card-text{
-    width: 50%;
+    width: 90%;
     text-align: center;
     padding-top: 20px;
 }
@@ -489,7 +497,7 @@ li{
 @media screen and (max-width: 768px) {
     /* Estilos específicos para pantallas pequeñas */
     .logo{
-        display: none;
+       
     }
 
     .imagen{
@@ -513,7 +521,8 @@ li{
     }
     .bg-body-tertiary{
         position: fixed;
-        width: 100%;
+        width: 90%;
+        height: 80px;
         z-index: 100;
         top: 0%;
     }
