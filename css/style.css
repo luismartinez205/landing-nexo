@@ -488,6 +488,13 @@ li{
 /* Media query para dispositivos móviles */
 @media screen and (max-width: 768px) {
     /* Estilos específicos para pantallas pequeñas */
+    .logo{
+        display: none;
+    }
+
+    .imagen{
+        display: none;
+    }
     .paragraph1_img {
         width: 34px;
         position: absolute;
