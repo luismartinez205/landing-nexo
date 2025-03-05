@@ -523,6 +523,10 @@ h5{
         right: 10px;
         bottom: 140px;
     }
+
+    .navbar-collapse{
+        background-color: rgba(40,40,40,.6);
+    }
     .header_nexo {
         width: 179px;
         height: 165px;
@@ -614,7 +618,7 @@ h5{
         font-weight: 600;
         color: #1b1ba3c7;
         font-family: 'Raleway';
-        font-size: 18px;
+        font-size: 19px;
         padding-bottom: 10px;
     }
     .col-6 {
