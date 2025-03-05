@@ -26,8 +26,8 @@ body{
 }
 
 .imagen{
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     position: absolute;
     object-fit: cover;
@@ -78,9 +78,11 @@ body{
 
 .para_title{
     font-weight: 600;
-    color: #1b1ba3c7;
+    color: #000000ad;
     font-family: 'Raleway';
     font-size: 20px;
+    background-color: #ffc107c2;
+    text-align: center;
 }
 .line{
     background-color: #ff914c;
@@ -146,7 +148,7 @@ span{
 
 .row_title{
     
-    color: #ffc107;
+    color: #47548c;
     font-family: 'Raleway';
     font-size: 2rem;
     font-weight: 300;
@@ -215,6 +217,7 @@ p{
 .col-6 p{
     width: 639px;
     text-align: start;
+    margin-top: 10px;
 }
 .wave{
     height: 150px;
@@ -227,19 +230,23 @@ p{
     padding-top: 8px;
 }
 
+nav{
+    height: 84px;
+}
+
 .wha-icon:hover{
     transform: scale(1.5);
     transition: all 0.5s ease-in-out;
 }
 .nav-link{
-    color: #ffffff;
-    font-size: 1rem;
+    color: #ffffff;    
+    font-size: 0.9rem;
     font-weight: bold;
 
     &&:hover{
         color: #f3b61d;
         
-        transition: all 0.5s ease-in-out;
+        transition: color 0.5s ease-in-out;
     }
 
     &&:active{
@@ -306,8 +313,7 @@ li{
     height: 111px;
 }
 .footer_social{
-    display: flex;
-    flex-direction: column;
+    display: flex;   
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -317,16 +323,16 @@ li{
     border: #ffffff;
 }
 .facebook{
-    width: 30px;
-    height: 30px;
+    width: 28px;
+    height: 28px;
 }
 .instagram{
-    width: 44px;
-    height: 44px;
+    width: 32px;
+    height: 32px;
 }
 .twitter{
-    width: 44px;
-    height: 44px;
+    width: 32px;
+    height: 32px;
 }
 .footer_logo{
    padding: 10px;
@@ -404,9 +410,7 @@ li{
 h5{
     font-size: 1rem;
 }
-.navbar-collapse{
-    background-color: rgba(0,0,0,.6);
-}
+
 /* Media query para tabletas */
 @media screen and (max-width: 1024px) {
     /* Estilos específicos para tabletas */
