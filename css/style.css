@@ -526,6 +526,9 @@ h5{
 
     .navbar-collapse{
         background-color: rgba(40,40,40,.6);
+        position: relative;
+        top: 4px;
+        right: 0px;
     }
     .header_nexo {
         width: 179px;
